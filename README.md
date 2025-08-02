@@ -75,5 +75,4 @@ Console output:
 - `ping` mode may vary by OS
 - `UDP` is unreliable but fast for rough testing
 - Limit IPv6 samples to avoid slow scans
-- Supports comment lines, blank lines, and auto deduplication
-- Useful for proxy node testing, CN2 filtering, etc.
+- Supports comment lines, blank lines, 和 auto deduplication
