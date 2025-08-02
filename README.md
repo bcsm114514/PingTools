@@ -1,5 +1,8 @@
 # PingTools
 
+- 英文
+- [简体中文](./README_CN.md)
+
 🎯 A concurrent IP/domain latency testing script supporting multiple protocols, formats, IPv4/IPv6, CIDR parsing, and result filtering/export.
 
 ## ✨ Features
