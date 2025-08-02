@@ -76,4 +76,3 @@ python ping.py --mode udp --port 443 --top 10 --output good.csv --failed bad.csv
 - `UDP` 模式仅能粗略估计延迟
 - IPv6 地址段建议开启采样限制
 - 支持注释与空行、自动去重
-- 可用于机场测速、CN2 分流测试等场景
