@@ -30,7 +30,7 @@ pip install tqdm tabulate
 
 ```
 1.1.1.1
-google.com
+google。com
 2408:XXX:XXX::/48
 192.168.0.0/24
 ```
