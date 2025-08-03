@@ -1,6 +1,6 @@
 # PingTools
 
-- English
+- 英文
 - [简体中文](./README_CN.md)
 
 🎯 A concurrent IP/domain latency testing script supporting multiple protocols, formats, IPv4/IPv6, CIDR parsing, and result filtering/export.
@@ -43,18 +43,18 @@ python ping.py --mode udp --port 443 --top 10 --output good.csv --failed bad.csv
 
 ### Parameters
 
-| Argument | Description | Example |
-|----------|-------------|---------|
-| `--mode` | Test mode: `udp`, `tcp`, or `ping` | `--mode tcp` |
-| `--port` | Port for `udp`/`tcp` | `--port 443` |
-| `--top` | Show top N results | `--top 10` |
-| `--output` | CSV output for successful results | `--output good.csv` |
-| `--failed` | CSV output for failed results | `--failed failed.csv` |
-| `--json` | JSON output | `--json result.json` |
-| `--min` | Filter min latency (ms) | `--min 10` |
-| `--max` | Filter max latency (ms) | `--max 200` |
-| `--ipv6-limit` | Max IPv6 samples per CIDR (default 10, 0 = unlimited) | `--ipv6-limit 0` |
-| `--verbose` | Show detailed info | `--verbose` |
+| Argument | Description | Example | Required |
+|----------|-------------|---------|----------|
+| `--mode` | Test mode: `udp`, `tcp`, or `ping` | `--mode tcp` | Yes |
+| `--port` | Port for `udp`/`tcp` | `--port 443` | No |
+| `--top` | Show top N results | `--top 10` | No |
+| `--output` | CSV output for successful results | `--output good.csv` | No |
+| `--failed` | CSV output for failed results | `--failed failed.csv` | No |
+| `--json` | JSON output | `--json result.json` | No |
+| `--min` | Filter min latency (ms) | `--min 10` | No |
+| `--max` | Filter max latency (ms) | `--max 200` | No |
+| `--ipv6-limit` | Max IPv6 samples per CIDR (default 10, 0 = unlimited) | `--ipv6-limit 0` | No |
+| `--verbose` | Show detailed info | `--verbose` | No |
 
 ## 📦 Output Example
 
