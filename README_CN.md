@@ -43,18 +43,18 @@ python ping.py --mode udp --port 443 --top 10 --output good.csv --failed bad.csv
 
 ### 参数说明
 
-| 参数 | 含义 | 示例 |
-|------|------|------|
-| `--mode` | 测试模式 `udp` / `tcp` / `ping` | `--mode tcp` |
-| `--port` | 指定端口 (仅用于 `udp`/`tcp`) | `--port 443` |
-| `--top` | 输出延迟最小前 N 个 IP | `--top 10` |
-| `--output` | 成功结果 CSV 文件 | `--output good.csv` |
-| `--failed` | 失败结果 CSV 文件 | `--failed failed.csv` |
-| `--json` | 导出 JSON 文件 | `--json result.json` |
-| `--min` | 最小延迟过滤（单位：ms）| `--min 10` |
-| `--max` | 最大延迟过滤（单位：ms）| `--max 200` |
-| `--ipv6-limit` | 每个 IPv6 地址段最多采样多少个 IP（默认10，设为0表示不限制） | `--ipv6-limit 0` |
-| `--verbose` | 是否显示详细控制台信息 | `--verbose` |
+| 参数 | 含义 | 示例 | 必须 |
+|------|------|------|------|
+| `--mode` | 测试模式 `udp` / `tcp` / `ping` | `--mode tcp` | 必须 |
+| `--port` | 指定端口 (仅用于 `udp`/`tcp`) | `--port 443` | 可选 |
+| `--top` | 输出延迟最小前 N 个 IP | `--top 10` | 可选 |
+| `--output` | 成功结果 CSV 文件 | `--output good.csv` | 可选 |
+| `--failed` | 失败结果 CSV 文件 | `--failed failed.csv` | 可选 |
+| `--json` | 导出 JSON 文件 | `--json result.json` | 可选 |
+| `--min` | 最小延迟过滤（单位：ms）| `--min 10` | 可选 |
+| `--max` | 最大延迟过滤（单位：ms）| `--max 200` | 可选 |
+| `--ipv6-limit` | 每个 IPv6 地址段最多采样多少个 IP（默认10，设为0表示不限制） | `--ipv6-limit 0` | 可选 |
+| `--verbose` | 是否显示详细控制台信息 | `--verbose` | 可选 |
 
 ## 📦 输出示例
 
